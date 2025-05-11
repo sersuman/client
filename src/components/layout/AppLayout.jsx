@@ -5,6 +5,7 @@ import { Grid } from "@mui/material";
 import { styled } from "@mui/material/styles";
 import Box from "@mui/material/Box";
 import Paper from "@mui/material/Paper";
+import ChatList from "../specific/ChatList";
 
 const Item = styled(Paper)(({ theme }) => ({
   backgroundColor: "#fff",
@@ -34,7 +35,7 @@ const AppLayout = () => (WrappedComponent) => {
               backgroundColor: "red",
             }}
           >
-            <Item>First</Item>
+            <ChatList />
           </Grid>
           <Grid
             height={"100%"}
